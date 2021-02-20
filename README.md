@@ -1,4 +1,4 @@
-# Coway AP-1512HH [Mighty]
+# Coway AP-1512HH [Mighty] Teardown
 Information about the hardware of the Coway AP-1512HH Air Purifier. This is not a review. The accuracy of this information cannot be guaranteed.
 
 ## Basic information 
