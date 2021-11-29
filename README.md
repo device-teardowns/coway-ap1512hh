@@ -89,6 +89,19 @@ This makes this air purifier rather hackable - it also supplies 5V 1A, isolated 
 
 The control board is provided for reference. It is likely that should you require any feature this control board does not implement, you should create your own to interface with the power supply board. You will likely need to find a way to read the speed of the motor and control its output PWM with a closed-loop feedback controller, since these brushless DC motors can have a varying actual speed with line voltage and load. This will also allow you to keep the fan from speeding up too much if the output is blocked, possibly preventing the fan from exploding. 
 
+The markings on the two main ICs are as follows:
+
+IC1:
+D78F0513A
+1514XMO17
+
+MYS
+
+IC3:
+ATMLH442
+02CM B
+4W6780
+
 ![PSU](images/coway-mainboard.jpg)
 
 The dust sensor is a Shinyei PPD42. It is not particularly accurate, but is good enough to control the purifier. Most smart air purifiers use Plantower PMS5003,7003,9003 sensors and/or equivalents with an internal fan to provide more accurate readings. 
