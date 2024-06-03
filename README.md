@@ -89,6 +89,7 @@ This makes this air purifier rather hackable - it also supplies 5V 1A, isolated 
 
 The control board is provided for reference. It is likely that should you require any feature this control board does not implement, you should create your own to interface with the power supply board. You will likely need to find a way to read the speed of the motor and control its output PWM with a closed-loop feedback controller, since these brushless DC motors can have a varying actual speed with line voltage and load. This will also allow you to keep the fan from speeding up too much if the output is blocked, possibly preventing the fan from exploding. 
 
+**Update Jun 2, 2024: I have published a design for an open source replacement main PCB. I don't know if I will be able to provide support for it, but it is provided as-is for your use (https://github.com/larryqiann/AP1512HH-ESP32/)**
 The markings on the two main ICs are as follows:
 
 IC1:
