@@ -1,6 +1,9 @@
 # Coway AP-1512HH [Mighty] Teardown
 Information about the hardware of the Coway AP-1512HH Air Purifier. This is not a review. The accuracy of this information cannot be guaranteed.
 
+## Update on Open Source Main Control Board and related has been published!
+Update Jun 2, 2024: I have published a design for an open source replacement main PCB. I don't know if I will be able to provide support for it, but it is provided as-is for your use (https://github.com/larryqiann/AP1512HH-ESP32/) 
+
 ## Basic information 
 
 ![Air Purifier](images/coway-machine-1.jpeg)
